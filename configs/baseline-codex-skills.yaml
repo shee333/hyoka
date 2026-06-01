@@ -21,3 +21,5 @@ configs:
           source: local
           skill_dir: true
           path: "./skills/reviewer"
+    limits:
+      max_turns: 150

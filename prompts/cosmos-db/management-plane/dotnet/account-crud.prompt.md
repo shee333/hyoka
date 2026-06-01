@@ -40,7 +40,11 @@ using the Azure.ResourceManager.CosmosDB SDK:
 9. Update the account using a patch to change tags
 10. Delete the account
 
-Show required NuGet packages and proper async/await patterns.
+Requirements:
+- Show the required NuGet packages and use proper async/await patterns.
+- Wrap the Azure service calls in error handling that catches and reports request failures.
+- Implement every step above with complete, working code. Do not leave placeholders,
+  TODO comments, stub methods, or the default "Hello, World!" template.
 
 ## Evaluation Criteria
 

@@ -40,8 +40,12 @@ SQL databases and containers using the Azure.ResourceManager.CosmosDB SDK:
 11. Migrate the container to autoscale and back to manual
 12. Clean up resources
 
-Show required NuGet packages and demonstrate all throughput operations
-including the migration between manual and autoscale modes.
+Requirements:
+- Show the required NuGet packages and use proper async/await patterns.
+- Wrap the Azure service calls in error handling that catches and reports request failures.
+- Implement all 12 operations above with complete, working code at both the database and
+  container level. Do not leave placeholders, TODO comments, stub methods, or the default
+  "Hello, World!" template — every throughput read, update, and migration must be present.
 
 ## Evaluation Criteria
 
